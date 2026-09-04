@@ -1,5 +1,8 @@
 server:
   port: 8080
+springdoc:
+  api-docs:
+    version: OPENAPI_3_0
 spring:
   datasource:
     url: jdbc:h2:mem:testdb
